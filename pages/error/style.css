@@ -1,0 +1,56 @@
+@font-face {
+    font-family: Lato-Black;
+    src: url(../../fonts/Lato-Black.ttf);
+}
+@font-face {
+    font-family: Lato-BlackItalic;
+    src: url(../../fonts/Lato-BlackItalic.ttf);
+}
+@font-face {
+    font-family: Lato-Italic;
+    src: url(../../fonts/Lato-Italic.ttf);
+}
+@font-face {
+    font-family: Lato-ThinItalic;
+    src: url(../../fonts/Lato-ThinItalic.ttf);
+}
+
+body{
+    background-image: url("../../images/Thanks.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+
+.home_btn{
+    width: 350px;
+    height: 60px;
+    position: absolute;
+    margin-left: -175px;
+    margin-top: -30px;
+    left: 50%;
+    top: 90%;
+
+    border-width: 0;
+    background: #70CB0E;
+    border-radius: 30px;
+    border-color: #70CB0E;
+    font-size: 24px;
+    color: #000000;
+    font-family: Lato-BlackItalic;
+    font-weight: 500;
+    line-height: 21px;
+}
+.home_btn:hover{
+    background: #FFE68E;
+    border-color: #FFE68E;
+}
+.home_btn:active{
+    background: transparent;
+    border-color: #70CB0E;
+    border-width: 4px;
+}
+.home_btn:focus{
+    outline: none;
+}
